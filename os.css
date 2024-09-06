@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+.product {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  height: 1000px;
+}
+
+.product img {
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+  padding-top: 0px;
+  border-radius: 20px;
+}
+
+.inner-product h2 {
+  color: rgb(0, 0, 0);
+  margin-left: px;
+}
+
+.inner-product p {
+  font-size: 22px;
+}
+
+.inner-product .tax {
+  font-size: 13px;
+  color: rgb(46, 46, 46);
+}
+
+.inner-product button {
+  width: 100%;
+  height: 60px;
+  font-size: 16px;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  transition: 0.2s ease-in-out;
+}
+
+.inner-product button:hover {
+  background-color: black;
+  color: white;
+}
+
+.product-description .first {
+  font-size: 22px;
+  padding-top: 30px;
+}
+
+.product-description h2 {
+  font-size: 22px;
+  padding-top: 30px;
+}
+
+.desc {
+  display: flex;
+  gap: 19px;
+}
+
+.shipping {
+  width: 100px;
+  text-align: center;
+}
+
+.shipping img {
+  width: 40%;
+}
+
+.shipping p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.star {
+  width: 120px;
+  text-align: center;
+}
+
+.star img {
+  width: 33%;
+}
+
+.star p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.device {
+  width: 120px;
+  text-align: center;
+}
+
+.device img {
+  width: 33%;
+}
+
+.device p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
